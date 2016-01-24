@@ -1,0 +1,40 @@
+@import url(https://fonts.googleapis.com/css?family=Hind);
+
+.bg1 {
+    background: url('../../img/bg1.png') repeat repeat center fixed;
+}
+
+.bg2 {
+    background: url('../../img/bg2.png') repeat center fixed;
+}
+
+.bg{background: #F2F2F2; padding-top: 20px;}  
+
+
+h1,h2,h3,h4,h5, li, a, span, p{font-family: 'Hind', sans-serif; }
+a {font-size: 16px;}
+
+.font-arya{
+    font-family: 'Arya', sans-serif; 
+}
+
+.font-size-1point2em {
+    font-size: 1.2em;
+}
+
+footer{background: #8E1B1B; color: #fff}  
+footer .img-responsive{display: inline; margin-top: 10px;}
+
+.sportslogo, .logotext {
+height:70px!important;
+}
+
+.custom-top-bar{
+background-color:#000;
+padding: 0.2em 0.5em;
+}
+
+.custom-top-bar ul {
+background-color:#000;
+}
+
