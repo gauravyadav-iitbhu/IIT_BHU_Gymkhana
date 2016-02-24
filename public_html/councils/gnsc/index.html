@@ -1,0 +1,109 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Games and Sports Council - IIT BHU</title>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <link href="index.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div id="mainbody">
+      <!--Display division that contains the image transisions-->
+      <div id="displaydiv">
+	<div id="quote">
+	  This is the area where the quote for each image is to be entered.......
+	  This is changed automatically by the js functuon that handles the Animations........
+	</div>
+      </div><br><br>
+      <!--End of the display division-->
+
+      <div id="content">
+	<center>
+	<table>
+	  <tbody>
+	    <tr>
+	      <td class="content">
+		<div id="content1">
+		  Sports and games have been a integral part oof the human society for thousands of years. The importance of these things should not be
+		  underestimated. Much of young children's learning comes from participating in games and sports, and this same participation as adults
+		  can lead to happier, healthier and more productive lives.
+		  <strong>History</strong>
+		</div>
+	      </td>
+	      <td class="content">
+		<div id="content2">
+		  Sports and games have been a integral part oof the human society for thousands of years. The importance of these things should not be
+		  underestimated. Much of young children's learning comes from participating in games and sports, and this same participation as adults
+		  can lead to happier, healthier and more productive lives.
+		  <strong>History</strong>
+		</div>
+	      </td>
+	      <td class="content">
+		<div id="content3">
+		  Sports and games have been a integral part oof the human society for thousands of years. The importance of these things should not be
+		  underestimated. Much of young children's learning comes from participating in games and sports, and this same participation as adults
+		  can lead to happier, healthier and more productive lives.
+		  <strong>History</strong>
+		</div>
+	      </td>
+	    </tr>
+	  </tbody>
+	</table></center>
+      </div>
+    </div>
+
+
+    <!--The constant header content starts-->
+    <div id="overlay">
+      <div id="nav">
+	&nbsp&nbsp&nbsp
+	<img id="sportslogo" src="logo.png" height="70px">
+	<img id="logotext" src="logotext.png" height="70px">
+	<span id="menutext">
+	  <a href="index.html">HOME</a>&nbsp|
+	  <a href="index.html">SPORTS</a>&nbsp|
+	  <a href="index.html">UPDATES</a>&nbsp|
+	  <a href="index.html">FORMS</a>&nbsp|
+	  <a href="index.html">CONTACTS</a>&nbsp|
+	  <a href="index.html">CALENDER</a>&nbsp
+
+	</span>	
+      </div>
+      <div id="tag">
+	<table>
+	  <tbody>
+	    <div><img id="tagimg" src="twitter.png"></div>
+	    <div><img id="tagimg" src="facebook.png"></div>
+	    <div><img id="tagimg" src="youtube.png"></div>
+	    <div><img id="tagimg" src="plus.png"></div>
+	  </tbody>
+	</table>
+      </div>
+      <!--<div id="newsbar">
+	<marquee behavious="scroll" scrollamount="100">Spardha starts at so and so date.</marquee>
+      </div>-->
+    </div>
+    <!--The constant header content ends-->
+    <script>
+      var rotateEvery = 4; //seconds
+      var images = [
+     	 "img2.jpg",
+      	 "img3.jpg",
+		 "img4.jpg",
+		 "img5.jpg",
+      	 "img1.png"];
+      var curImage = 0;
+      setInterval(delayFunction, rotateEvery*1000);
+      function delayFunction() {
+      if(curImage == images.length){
+      curImage = 0;
+      }
+      $('#displaydiv').fadeOut('slow',function(){
+      $(this).css("background-image",'url('+images[curImage]+')').fadeIn('slow');
+      curImage++;
+      });
+      
+      }
+    </script>
+</body>
+</html>

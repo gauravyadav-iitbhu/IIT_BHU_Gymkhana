@@ -1,0 +1,55 @@
+<li>
+<div class="wrap-event">
+
+<div class="calender-wrap">
+  <strong><i class="fa fa-calendar"></i> 6-8 Nov 2015</strong>
+  <em>Friday-Sunday</em>
+  <span class="block"><i class="fa fa-clock-o"></i> 10:00AM (starting)</span>
+</div>
+
+<div class="event-info">
+<span>
+<a href="http://www.iitbhu.ac.in/workshop-eed-leaflet.pdf"><b>EED-2015</b></a>
+Workshop on Electric Energy Distribution, Nov. 6-8, 2015
+</span>
+</div>
+
+</div>
+</li>
+
+<li>
+<div class="wrap-event">
+
+<div class="calender-wrap">
+  <strong><i class="fa fa-calendar"></i> 30 Dec 2015 - 1 Jan 2016</strong>
+  <span class="block"><i class="fa fa-clock-o"></i> 10:00AM </span>
+</div>
+
+<div class="event-info">
+<span>
+<a href="http://www.iitbhu.ac.in/alumni/alumni_meet/brochure.pdf"><b>IT (BHU) Alumni Meet</b></a>
+(Dec 30, 2015 - Jan 01, 2016)
+</span>
+</div>
+
+</div>
+</li>
+
+<li>
+<div class="wrap-event">
+
+<div class="calender-wrap">
+  <strong><i class="fa fa-calendar"></i> 12 Oct 2015</strong>
+  <em>Sunday</em>
+  <span class="block"><i class="fa fa-clock-o"></i> 10:00AM (starting)</span>
+</div>
+
+<div class="event-info">
+<span>
+<a href="#"><b>Test event</b></a>
+This is test event... Ignore it.
+</span>
+</div>
+
+</div>
+</li>
